@@ -9,6 +9,7 @@ public class App
     public static void main( String[] args )
     {
        new App().sayHello();
+       new App().sayError();
     }
     public void sayHello(){
     	 System.out.println( "Hello World!" );
